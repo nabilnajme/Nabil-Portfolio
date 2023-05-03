@@ -3,70 +3,70 @@ import {
   FiYoutube,
   FiInstagram,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
+  FiLinkedin,
+} from "react-icons/fi";
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
+import UpworkBrandIcon from "./assets/img/brands/upwork.png";
+import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+import BehanceBrandIcon from "./assets/img/brands/behance.png";
+import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from "./assets/img/projects/sushi website.png";
+import Project2 from "./assets/img/projects/christmas website.png";
+import Project3 from "./assets/img/projects/cofee shop.png";
+import Project4 from "./assets/img/projects/watch website.png";
+import Project5 from "./assets/img/projects/parralax website.png";
+import Project6 from "./assets/img/projects/plants website.png";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/nextjs.png";
+import SkillImg6 from "./assets/img/skills/nodejs.png";
+import SkillImg7 from "./assets/img/skills/git.png";
+import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from "./assets/img/testimonials/testimonial-1.webp";
+import TestiImage2 from "./assets/img/testimonials/testimonial-2.webp";
+import TestiImage3 from "./assets/img/testimonials/testimonial-3.webp";
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "home",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "about",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "portfolio",
+    href: "portfolio",
   },
   {
-    name: 'services',
-    href: 'services',
+    name: "services",
+    href: "services",
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: "testimonials",
+    href: "testimonials",
   },
   {
-    name: 'contact',
-    href: 'contact',
+    name: "contact",
+    href: "contact",
   },
 ];
 
@@ -74,19 +74,19 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: '',
+    href: "#",
+  },
+  {
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/nabil-maizou-b285a3274/",
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: "https://www.instagram.com/nabil_najme/?hl=fr",
   },
   {
     icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
-    href: '',
+    href: "https://github.com/nabilnajme",
   },
 ];
 
@@ -94,79 +94,79 @@ export const social = [
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: BehanceBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: DribbbleBrandIcon,
-    href: '',
+    href: "",
   },
 ];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: "1",
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: "Sushi Website",
+    category: "Front-end",
   },
   {
-    id: '2',
+    id: "2",
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: "Christmas Website",
+    category: "web development",
   },
   {
-    id: '3',
+    id: "3",
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: "Coffe Shop",
+    category: "Front-End",
   },
   {
-    id: '4',
+    id: "4",
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: "Rolex website",
+    category: "branding",
   },
   {
-    id: '5',
+    id: "5",
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: "Parallax website",
+    category: "web development",
   },
   {
-    id: '6',
+    id: "6",
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: "Plants website",
+    category: "web development",
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: "all",
   },
   {
-    name: 'UI/UX Design',
+    name: "Front-End",
   },
   {
-    name: 'web development',
+    name: "web development",
   },
   {
-    name: 'branding',
+    name: "branding",
   },
 ];
 
@@ -202,27 +202,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: "Web Design",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "As a web designer, I work closely with clients to create visually stunning and user-friendly websites that are tailored to their unique needs and goals. I begin every project by conducting a thorough analysis of my clients' brand",
   },
   {
     icon: <FiSettings />,
-    name: 'Web Development',
+    name: "Web Development",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "As a web developer, I specialize in building high-quality websites and applications that are both functional and easy to use. I have expertise in a variety of programming languages, frameworks, and content management systems, and am committed to staying up-to-date with the latest trends and best practices in the field. ",
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: "Branding",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "As a branding specialist, I help clients develop and refine their brand identity to better connect with their target audience and achieve their business objectives. From logo design and visual identity development to brand messaging and tone of voice",
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: "SEO",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "As an SEO specialist, I help clients improve their online visibility and attract more qualified leads to their website. I have expertise in all aspects of SEO, including keyword research, on-page optimization, link building, and analytics, and am committed to staying up-to-date with the latest industry trends and best practices",
   },
 ];
 
@@ -231,23 +231,23 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "Working with Nabil Maizou was a true pleasure - their attention to detail, creativity, and ability to think outside the box really helped take our project to the next level.",
+    authorName: "Olivia Doe",
+    authorPosition: "Head of Design, Google",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "Nabil Maizou is an incredibly talented professional - they consistently deliver high-quality work on time and on budget, and are always willing to go above and beyond to ensure the success of our projects.",
+    authorName: "Jennefer karl",
+    authorPosition: "Head of Design, Google",
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "I would highly recommend Nabil Maizou to anyone looking for a skilled and reliable [insert profession]. Their expertise, professionalism, and commitment to excellence are truly unmatched.",
+    authorName: "Anastazia Rini",
+    authorPosition: "Head of Design, Google",
   },
 ];
 
@@ -255,14 +255,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: "Have a question?",
+    subtitle: "I am here to help you.",
+    description: "maizounabil@gmail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: "Current Location",
+    subtitle: "Sale, Morocco",
+    description: "Serving clients worldwide",
   },
 ];
